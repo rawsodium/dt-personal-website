@@ -1,0 +1,41 @@
+  body {
+    background-color: #CBE4DE;
+  }
+  
+  .project-parent {
+    padding: 2rem 2rem;
+    text-align: center;
+    border: 1px solid blue;
+  }
+  
+  .project-child-coding {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: center;
+    text-align: left;
+    border: 1px solid red;
+  }
+  
+  .project-child-music {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: center;
+    text-align: right;
+    border: 1px solid red;
+  }
+
+  .website {
+    border: 1px solid green;
+  }
+
+  .image-processor {
+    border: 1px solid green;
+  }
+
+  .ds-proj {
+    border: 1px solid green;
+  }
+
+  .goose {
+    border: 1px solid green;
+  }

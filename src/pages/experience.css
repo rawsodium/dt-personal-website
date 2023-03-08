@@ -1,0 +1,21 @@
+.exp-parent {
+    padding: 2rem 2rem;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.exp-child-technical {
+    padding: 1rem 1rem;
+    display: left;
+    vertical-align: center;
+    text-align: left;
+    border: 1px solid red;
+}
+
+.exp-child-work {
+    display: right;
+    padding: 1rem 1rem;
+    vertical-align: center;
+    text-align: right;
+    border: 1px solid red;
+}
