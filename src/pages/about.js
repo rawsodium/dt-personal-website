@@ -11,7 +11,10 @@ const About = () => {
       </p>
       <p>
         I'm passionate about software engineering, audio engineering, and the intersection between the two. In the future, I hope
-        to work on developing audio plugins, digital audio workstations, and 
+        to work on developing audio plugins, digital audio workstations, or other music related software. 
+      </p>
+      <p>
+        
       </p>
     </div>
   );
