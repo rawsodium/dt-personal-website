@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
+import './about.css';
 
 /*
 const Music = 
@@ -20,14 +21,15 @@ const albumChooser =
   */
 
 const Name =
-<Fade down>
-  <h1>hi there, my name is deanna (she/her)</h1>
-</Fade>
+<div class="name">
+  <Fade down>
+    <h1>hi there, my name is deanna (she/her)</h1>
+  </Fade>
+</div>
 
 const Pitch =
-
-<Fade left>
-  <div> 
+<div class="pitch">
+  <Fade left>
     <p>
       I'm a second year at Northeastern University studying Computer Science and Music Technology.
     </p>
@@ -45,8 +47,8 @@ const Pitch =
       we did with C++ made me fall in love with coding. Being able to write a program from start to finish that works
       was a very satisfying feeling. 
     </p>
-  </div>
-</Fade>
+  </Fade>
+</div>
 
 const FunFacts =
 <Fade right>

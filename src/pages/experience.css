@@ -2,20 +2,20 @@
     padding: 2rem 2rem;
     text-align: center;
     border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .exp-child-technical {
     padding: 1rem 1rem;
-    display: left;
     vertical-align: center;
     text-align: left;
     border: 1px solid red;
 }
 
 .exp-child-work {
-    display: right;
     padding: 1rem 1rem;
     vertical-align: center;
-    text-align: right;
+    text-align: left;
     border: 1px solid red;
 }
