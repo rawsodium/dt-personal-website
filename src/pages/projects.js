@@ -1,27 +1,29 @@
 import React from 'react';
 import './projects.css';
-  
+
 const Projects = () => {
   return (
     <div class="project-parent">
       <div class="project-child-coding">
         <h1>Coding projects that I've worked on!</h1>
         <div class="website">
-          <h2>This website | March 2023 - Present </h2>
+          <h2>This website | March 2023 - Present (currently working on updates)</h2>
             <h3>React.js, Node.js, HTML, CSS, JavaScript, Spotify Web API</h3>
               <ul>
                 <li>Deployed the website using React and Node</li>
                 <li>Integrated a web player using Spotify's Web API to play background music</li>
               </ul>
+            <p><a href="https://github.com/rawsodium/dt-personal-website" target="_blank">Code</a></p>
         </div>
         <div class="ds-proj">
-          <h2> Discogra.py | March 2023 - Present (in development)</h2>
-            <h3>Python, numPy, pandas, Matplotlib</h3>
+          <h2> Discogra.py | March 2023 - Present (in progress)</h2>
+            <h3>Python, Jupyter Notebook, numPy, pandas, Matplotlib, seaborn</h3>
               <ul>
                 <li>Construct a dataset using my record collection, cataloged on Discogs.com</li>
                 <li>Visaulize my collection based on attributes such as genre, location of pressing, and year of pressing</li>
                 <li>Create separate analyses for full albums and singles</li>
               </ul>
+            <p><a href="https://github.com/rawsodium/discogra.py" target="_blank">Code</a></p>
         </div>
         <div class="image-processor">
           <h2>Image Processor | October - December 2022</h2>
@@ -42,7 +44,7 @@ const Projects = () => {
                 <li>Rendered display of each goose’s traits, and composed background music</li>
                 <li>Worked on a team with 5 others and submitted the project as a part of HackBeanpot 2022</li>
               </ul>
-              <p> See the code <a href="https://github.com/thederekkaplan/mrs-fens-gaggle" target="_blank">here</a></p>
+              <p><a href="https://github.com/thederekkaplan/mrs-fens-gaggle" target="_blank">Code</a></p>
         </div>
       </div>
       <div class="project-child-music">

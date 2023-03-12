@@ -15,7 +15,12 @@ const About = () => {
       </p>
       <p>
         I love tinkering with new tools and technologies, and I'm always eager to learn. I'm currently working on improving
-        this website and visualizing music data, both of which are using tools I haven't made much use of before.
+        this website and visualizing music data, both of which are using tools I haven't made much use of before. 
+      </p>
+      <p>
+        I didn't discover my passion for computer science until I came to college. Originally, I was studying engineering, and the work
+        we did with C++ made me fall in love with coding. Being able to write a program from start to finish that works
+        was a very satisfying feeling. 
       </p>
       <p>
         Some interesting tidbits about me:
@@ -30,7 +35,7 @@ const About = () => {
               <li>Piano (a basic amount), for 1 year</li>
             </ul>
           </li>
-          <li></li>
+          <li>I did mixed martial arts for 11 years, nearly earning a black belt.</li>
         </ul>
         </p>
     </div>
