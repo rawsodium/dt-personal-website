@@ -1,5 +1,46 @@
 import React from 'react';
 import './projects.css';
+import { ProjectType } from '.';
+
+/*
+const Website = {
+  name: "This website",
+  description: "This website was created so others can get to know me a little better. I've put my personal coding projects on here, as well as some music that I work on.",
+  technologies: "React.js, JavaScript, TypeScript, HTML, CSS, Spotify Web API",
+  codeLink: <a href="https://github.com/rawsodium/dt-personal-website" target="_blank">Code</a>,
+  start: "March 2023",
+  end: "Present",
+  type: "PROJECT",
+};
+
+const Discograpy = {
+  name: "Discogra.py",
+  description: "A collection of data visualizations and statistical analyses done on my personal record collection. I pulled the data on each entry from Discogs.com, where I had cataloged my record collection.",
+  technologies: "Python, Jupyter Notebook, numPy, pandas, Matplotlib, seaborn",
+  codeLink: <a href="https://github.com/rawsodium/discogra.py" target="_blank">Code</a>,
+  start: "March 2023",
+  end: "Present",
+  type: "PROJECT",
+};
+
+const ImageProcessor = {
+  name: "Image Processor",
+  description: "This was a project for my Object-Oriented Design class. We were tasked with creating an image editing application according to object-oriented design principles.",
+  technologies: "Java, Swing, JUnit",
+  start: "October 2022",
+  end: "December 2022",
+  type: "PROJECT",
+};
+
+const Goose = {
+  name: "Ms. Fens' Gaggle",
+  description: "A fun goose-breeding game created by myself and a team of 5 others for HackBeanpot 2022.",
+  technologies: "Vue.js, JavaScript, TypeScript, HTML",
+  start: "February 2022",
+  end: "February 2022",
+  type: "PROJECT",
+};
+*/
 
 const Projects = () => {
   return (
@@ -58,5 +99,12 @@ const Projects = () => {
     </div>
   );
 };
-  
+
+/*
+const Projects = () => {
+  return (
+    Website, Discograpy, ImageProcessor, Goose
+  );
+};*/
+
 export default Projects;
