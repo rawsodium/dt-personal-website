@@ -1,7 +1,8 @@
 import React from 'react';
 import './projects.css';
-import Fade from 'react-reveal/Fade'
-import ghLogo from "../assets/github-logo.png"
+import Fade from 'react-reveal/Fade';
+import ghLogo from "../assets/github-logo.png";
+import discogsLogo from "../assets/discogs-logo.png";
 
 const Website = 
 <div class="website">
@@ -12,7 +13,7 @@ const Website =
           <li>Deployed the website using React and Node</li>
           <li>Integrated a web player using Spotify's Web API to play background music</li>
         </ul>
-    <p><a href="https://github.com/rawsodium/dt-personal-website" target="_blank"><img src={ghLogo}></img></a></p>
+    <p><a href="https://github.com/rawsodium/dt-personal-website" target="_blank"><img src={ghLogo} width="50" height="50"></img></a></p>
   </Fade>
 </div>
 
@@ -26,7 +27,10 @@ const Discograpy =
           <li>Visaulize my collection based on attributes such as genre, location of pressing, and year of pressing</li>
           <li>Create separate analyses for full albums and singles</li>
         </ul>
-    <p><a href="https://github.com/rawsodium/discogra.py" target="_blank"><img src={ghLogo}></img></a></p>
+    <div>
+      <a href="https://github.com/rawsodium/discogra.py" target="_blank"><img src={ghLogo} width="50" height="50"></img></a> 
+      <a href="https://www.discogs.com/user/deannat/collection" target="_blank"><img src={discogsLogo} width="100" height="50"></img></a>
+    </div>
   </Fade>
 </div>
 
@@ -55,10 +59,13 @@ const Goose =
             <li>Rendered display of each goose’s traits, and composed background music</li>
             <li>Worked on a team with 5 others and submitted the project as a part of HackBeanpot 2022</li>
           </ul>
-      <p><a href="https://github.com/thederekkaplan/mrs-fens-gaggle" target="_blank"><img src={ghLogo}></img></a></p>
+      <p><a href="https://github.com/thederekkaplan/mrs-fens-gaggle" target="_blank"><img src={ghLogo} width="50" height="50"></img></a></p>
   </Fade>
 </div>
 
+const Pad = 
+<div>
+</div>
 /*
 const Projects = () => {
   return (
@@ -126,8 +133,12 @@ const Projects = () => {
   return (
     <div class="project-parent">
       {Website}
+      {Pad}
+      {Pad}
       {Discograpy}
       {ImageProcessor}
+      {Pad}
+      {Pad}
       {Goose}
     </div>
   );

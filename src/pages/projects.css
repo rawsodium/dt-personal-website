@@ -3,6 +3,8 @@
   }
   
   .project-parent {
+    display: grid;
+    grid-template-columns: 50% 50%;
     padding: 2rem 2rem;
     text-align: center;
     border: 1px solid blue;
@@ -26,20 +28,24 @@
 
   .website {
     border: 1px solid green;
+    text-align: left;
     transition: opacity 500ms ease-in;
   }
 
   .image-processor {
     border: 1px solid green;
+    text-align: left;
     transition: opacity 500ms ease-in;
   }
 
   .ds-proj {
     border: 1px solid green;
+    text-align: left;
     transition: opacity 500ms ease-in;
   }
 
   .goose {
     border: 1px solid green;
+    text-align: left;
     transition: opacity 500ms ease-in;
   }

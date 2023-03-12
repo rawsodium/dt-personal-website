@@ -1,6 +1,5 @@
 import React from "react";
-import Fade from 'react-reveal/Fade'
-//import Draggable from 'react-draggable';
+import Fade from 'react-reveal/Fade';
 
 /*
 const Music = 
@@ -9,6 +8,15 @@ const Music =
       <p>Click here to play some of my favorite songs through Spotify!</p>
     </Draggable>
   </div>
+  */
+
+  /*
+const albumChooser = 
+  <Draggable>
+    <div>
+      <p>test</p>
+    </div>
+  </Draggable>
   */
 
 const Name =
@@ -30,7 +38,7 @@ const Pitch =
     <p>
       I love tinkering with new tools and technologies, and I'm always eager to learn. I'm currently working on improving
       this website and visualizing music data, both of which are using tools I haven't made much use of before. Some other
-      things I'd like to learn through building projects with include Raspberry Pi, and some of the C++ audio libraries.
+      things I'd like to learn through building projects include Raspberry Pi, and some of the C++ audio libraries.
     </p>
     <p>
       I didn't discover my passion for computer science until I came to college. Originally, I was studying engineering, and the work
@@ -46,7 +54,7 @@ const FunFacts =
   Some interesting tidbits about me:
   <ul>
     <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
-    I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection?header=1" target="_blank">here</a></li>
+    I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank">here</a></li>
     <li>I'm a multi-instrumentalist. The instruments I play:
       <ul>
         <li>Violin, for 11 years</li>
