@@ -4,6 +4,13 @@ import Fade from 'react-reveal/Fade';
 import ghLogo from "../assets/github-logo.png";
 import discogsLogo from "../assets/discogs-logo.png";
 
+const WebsiteLink =
+<div class="links">
+  <Fade left>
+    <a href="https://github.com/rawsodium/dt-personal-website" target="_blank"><img src={ghLogo} width="50" height="50"></img></a>
+  </Fade>
+</div>
+
 const Website = 
 <div class="website">
   <Fade left>
@@ -13,8 +20,14 @@ const Website =
           <li>Deployed the website using React and Node</li>
           <li>Integrated a web player using Spotify's Web API to play background music</li>
         </ul>
-    <p><a href="https://github.com/rawsodium/dt-personal-website" target="_blank"><img src={ghLogo} width="50" height="50"></img></a></p>
+    {WebsiteLink}
   </Fade>
+</div>
+
+const DiscograpyLinks =
+<div class="links">
+  <a href="https://github.com/rawsodium/discogra.py" target="_blank"><img src={ghLogo} width="50" height="50"></img></a> 
+  <a href="https://www.discogs.com/user/deannat/collection" target="_blank"><img src={discogsLogo} width="100" height="50"></img></a>
 </div>
 
 const Discograpy = 
@@ -27,10 +40,7 @@ const Discograpy =
           <li>Visaulize my collection based on attributes such as genre, location of pressing, and year of pressing</li>
           <li>Create separate analyses for full albums and singles</li>
         </ul>
-    <div>
-      <a href="https://github.com/rawsodium/discogra.py" target="_blank"><img src={ghLogo} width="50" height="50"></img></a> 
-      <a href="https://www.discogs.com/user/deannat/collection" target="_blank"><img src={discogsLogo} width="100" height="50"></img></a>
-    </div>
+      {DiscograpyLinks}
   </Fade>
 </div>
 

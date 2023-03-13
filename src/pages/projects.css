@@ -28,24 +28,33 @@
 
   .website {
     border: 1px solid green;
+    padding: 1rem 1rem;
     text-align: left;
     transition: opacity 500ms ease-in;
   }
 
   .image-processor {
     border: 1px solid green;
+    padding: 1rem 1rem;
     text-align: left;
     transition: opacity 500ms ease-in;
   }
 
   .ds-proj {
     border: 1px solid green;
+    padding: 1rem 1rem;
     text-align: left;
     transition: opacity 500ms ease-in;
   }
 
   .goose {
     border: 1px solid green;
+    padding: 1rem 1rem;
     text-align: left;
     transition: opacity 500ms ease-in;
+  }
+
+  .links {
+    display: center;
+    border: 1px solid purple;
   }

@@ -1,8 +1,13 @@
 .name {
     border: 1px solid green;
+    text-align: center;
 }
 
-.pitch {
+.info-text {
     border: 1px solid green;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

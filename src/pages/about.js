@@ -19,6 +19,9 @@ const albumChooser =
     </div>
   </Draggable>
   */
+const Pad =
+<div>
+</div>
 
 const Name =
 <div class="name">
@@ -28,7 +31,7 @@ const Name =
 </div>
 
 const Pitch =
-<div class="pitch">
+<div class="info-text">
   <Fade left>
     <p>
       I'm a second year at Northeastern University studying Computer Science and Music Technology.
@@ -51,24 +54,25 @@ const Pitch =
 </div>
 
 const FunFacts =
-<Fade right>
-  <p>
-  Some interesting tidbits about me:
-  <ul>
-    <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
-    I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank">here</a></li>
-    <li>I'm a multi-instrumentalist. The instruments I play:
+<div class="info-text">
+  <Fade right>
+    <p>Some interesting tidbits about me:
       <ul>
-        <li>Violin, for 11 years</li>
-        <li>Guitar (electric and acoustic), for 5 years</li>
-        <li>Bass Guitar, for 2 years</li>
-        <li>Piano (a basic amount), for 1 year</li>
+        <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
+        I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank">here</a></li>
+        <li>I'm a multi-instrumentalist. The instruments I play:
+          <ul>
+            <li>Violin, for 11 years</li>
+            <li>Guitar (electric and acoustic), for 5 years</li>
+            <li>Bass Guitar, for 2 years</li>
+            <li>Piano (a basic amount), for 1 year</li>
+          </ul>
+        </li>
+        <li>I did mixed martial arts for 11 years, nearly earning a black belt.</li>
       </ul>
-    </li>
-    <li>I did mixed martial arts for 11 years, nearly earning a black belt.</li>
-  </ul>
-  </p>
-</Fade>
+    </p>
+  </Fade>
+</div>
 
 /*
 const About = () => {
@@ -119,8 +123,12 @@ const About = () => {
   return (
     <div>
       {Name}
-      {Pitch}
-      {FunFacts}
+      <div class="parent">
+        {Pitch}
+        {Pad}
+        {Pad}
+        {FunFacts}
+      </div>
     </div>
   );
 };
