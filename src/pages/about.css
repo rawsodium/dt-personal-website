@@ -1,13 +1,38 @@
 .name {
     border: 1px solid green;
+    font-family: "Avenir Next";
     text-align: center;
 }
 
 .info-text {
+    padding: 1rem 1rem;
+    text-align: left;    
+    font-family: "Avenir Next";
     border: 1px solid green;
 }
 
-.parent {
+.parent-about {
     display: grid;
+    font-family: "Avenir Next";
     grid-template-columns: 50% 50%;
+}
+
+.parent-contact {
+    display: grid;
+    font-family: "Avenir Next";
+    text-align: center;
+    border: 1px solid purple;
+    grid-template-rows: 20% 20%;
+}
+
+.child-contact {
+    padding: 1rem 1rem;
+    display: center;
+    text-align: center;
+    border: 1px solid green;
+}
+
+.links-contact {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
