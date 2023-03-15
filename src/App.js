@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route}
+import { BrowserRouter as Router, Routes, Route, BrowserRouter}
     from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
@@ -12,16 +12,18 @@ import Footer from './components/Footer';
 
 function App() {
 return (
-    <Router>
-    <Navbar />
-    <Routes>
-        <Route path='/' exact element={<Home />} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/projects' element={<Projects/>} />
-        <Route path='/experience' element={<Experience/>} />
-        <Route path='/creations' element={<Creations/>} />
-    </Routes>
-    </Router>
+    <BrowserRouter basename={window.location.pathname || ''}>
+        <Router>
+        <Navbar />
+        <Routes>
+            <Route path='/' exact element={<Home />} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/projects' element={<Projects/>} />
+            <Route path='/experience' element={<Experience/>} />
+            <Route path='/creations' element={<Creations/>} />
+        </Routes>
+        </Router>
+    </BrowserRouter>
 );
 }
   
