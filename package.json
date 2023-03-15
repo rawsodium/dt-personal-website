@@ -1,6 +1,6 @@
 {
   "name": "dt-website",
-  "homepage": "https://rawsodium.github.io/dt-personal-website/",
+  "homepage": "https://rawsodium.github.io/dt-personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
