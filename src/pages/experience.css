@@ -1,0 +1,19 @@
+.exp-parent {
+    font-family: "Avenir Next";
+    padding: 2rem 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.exp-child-technical {
+    padding: 1rem 1rem;
+    vertical-align: center;
+    text-align: left;
+}
+
+.exp-child-work {
+    padding: 1rem 1rem;
+    vertical-align: center;
+    text-align: left;
+}

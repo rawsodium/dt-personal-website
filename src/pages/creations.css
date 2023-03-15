@@ -1,0 +1,8 @@
+.creation-parent {
+    font-family: "Avenir Next"
+}
+
+.creation-child {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
