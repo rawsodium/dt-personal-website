@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter}
+import { BrowserRouter as Router, Routes, Route, BrowserRouter, HashRouter}
     from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
 return (
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <HashRouter>
         <Router>
         <Navbar />
         <Routes>
@@ -23,7 +23,7 @@ return (
             <Route path='/creations' element={<Creations/>} />
         </Routes>
         </Router>
-    </BrowserRouter>
+    </HashRouter>
 );
 }
   
