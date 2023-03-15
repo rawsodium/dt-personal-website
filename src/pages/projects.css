@@ -8,7 +8,6 @@
     grid-template-columns: 50% 50%;
     padding: 2rem 2rem;
     text-align: center;
-    border: 1px solid blue;
   }
   
   .project-child-coding {
@@ -16,7 +15,6 @@
     padding: 1rem 1rem;
     vertical-align: center;
     text-align: left;
-    border: 1px solid red;
   }
   
   .project-child-music {
@@ -24,38 +22,28 @@
     padding: 1rem 1rem;
     vertical-align: center;
     text-align: right;
-    border: 1px solid red;
   }
 
   .website {
-    border: 1px solid green;
     padding: 1rem 1rem;
     text-align: left;
-    transition: opacity 500ms ease-in;
   }
 
   .image-processor {
-    border: 1px solid green;
     padding: 1rem 1rem;
     text-align: left;
-    transition: opacity 500ms ease-in;
   }
 
   .ds-proj {
-    border: 1px solid green;
     padding: 1rem 1rem;
     text-align: left;
-    transition: opacity 500ms ease-in;
   }
 
   .goose {
-    border: 1px solid green;
     padding: 1rem 1rem;
     text-align: left;
-    transition: opacity 500ms ease-in;
   }
 
   .links-project {
     display: center;
-    border: 1px solid purple;
   }

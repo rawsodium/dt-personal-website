@@ -2,6 +2,8 @@ import React from "react";
 import Fade from 'react-reveal/Fade';
 import './about.css';
 import ghLogo from "../assets/github-logo.png";
+import liLogo from "../assets/linkedin-logo.png";
+import resumeIcon from "../assets/resume-icon.png";
 
 /*
 const Music = 
@@ -20,7 +22,7 @@ const albumChooser =
     </div>
   </Draggable>
   */
- 
+
 const Header =
 <div>
   <h1>Contact me:</h1>
@@ -28,12 +30,12 @@ const Header =
 
 const LinkedIn =
   <div class="child-contact">
-    <a href="https://www.linkedin.com/in/deanna-turner04/" target="_blank">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/deanna-turner04/" target="_blank"><img src={liLogo} width="50" height="50"></img></a>
   </div>
 
 const Resume =
   <div class="child-contact">
-    <p><a href="./public/DeannaTurner.pdf" download>Resume</a></p>
+    <p><a href="./public/DeannaTurner.pdf" download><img src={resumeIcon} width="75" height="75"></img></a></p>
   </div>
 
 const GitHub =
