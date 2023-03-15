@@ -20,9 +20,10 @@ const albumChooser =
     </div>
   </Draggable>
   */
+ 
 const Header =
 <div>
-  <h1>Contact me!</h1>
+  <h1>Contact me:</h1>
 </div>
 
 const LinkedIn =
@@ -106,6 +107,7 @@ const FunFacts =
           </ul>
         </li>
         <li>I did mixed martial arts for 11 years, nearly earning a black belt.</li>
+        <li>My favorite bands and artists are: Fleetwood Mac, Stevie Nicks, The Beatles, ABBA, The Beach Boys, and Harry Styles</li>
       </ul>
     </p>
   </Fade>

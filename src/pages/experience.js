@@ -20,7 +20,7 @@ const Technical =
 const Ta = 
 <div class="ta">
 <h2>Teaching Assistant, Fundamentals of Computer Science 1 (CS2500)</h2>
-    <h3>Khoury College of Computer Sciences | Boston, MA | September 2022 - Present</h3>
+    <h3>Khoury College of Computer Sciences | September 2022 - Present</h3>
         <ul>
             <li>Hold weekly office hours for 700+ students to provide support on course topics and assignments</li>
             <li>Host a weekly lab for 30+ students to solidify understanding of programming design principles</li>
@@ -31,9 +31,9 @@ const Ta =
 const Glr = 
 <div class="glr">
     <h2>Recording Engineer</h2>
-        <h3>Green Line Records | Boston, MA | September 2021 - Present</h3>
-            <p>My responsibilities as a recording engineer include helping set up microphones for recording sessions, 
-                and ensuring proper signal flow.</p>
+        <h3>Green Line Records | September 2021 - Present</h3>
+            <p> Green Line Records is Northeastern's student-run record label. We sign local artists, record, promote and distribute their music.
+                My responsibilities as a recording engineer include helping set up microphones and ensuring proper signal flow during recoring sessions.</p>
                 <ul>
                     <li>Serve as an assistant engineer to record the song "Ant" with Main Era</li>
                     <li>Served as an engineer-in-training to record the song "Chrysanthemums" with Clifford the Band</li>
