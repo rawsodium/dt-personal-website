@@ -12,8 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
 return (
-    <HashRouter>
-        <Router>
+    <BrowserRouter basename='/dt-personal-website'>
         <Navbar />
         <Routes>
             <Route path='/' exact element={<Home />} />
@@ -22,8 +21,7 @@ return (
             <Route path='/experience' element={<Experience/>} />
             <Route path='/creations' element={<Creations/>} />
         </Routes>
-        </Router>
-    </HashRouter>
+    </BrowserRouter>
 );
 }
   
