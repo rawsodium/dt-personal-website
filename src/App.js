@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
 return (
-    <BrowserRouter basename='/dt-personal-website'>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
             <Route path='/' exact element={<Home />} />
@@ -22,7 +22,7 @@ return (
             <Route path='/creations' element={<Creations/>} />
         </Routes>
     </BrowserRouter>
-);
+    );
 }
   
 export default App;
