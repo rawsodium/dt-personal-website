@@ -7,7 +7,7 @@ import discogsLogo from "../assets/discogs-logo.png";
 const WebsiteLink =
 <div class="links-project">
   <Fade left>
-    <a href="https://github.com/rawsodium/dt-personal-website" target="_blank"><img src={ghLogo} width="50" height="50"></img></a>
+    <a href="https://github.com/rawsodium/dt-personal-website" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a>
   </Fade>
 </div>
 
@@ -31,8 +31,8 @@ const Website =
 
 const DiscograpyLinks =
 <div class="links">
-  <a href="https://github.com/rawsodium/discogra.py" target="_blank"><img src={ghLogo} width="50" height="50"></img></a> 
-  <a href="https://www.discogs.com/user/deannat/collection" target="_blank"><img src={discogsLogo} width="100" height="50"></img></a>
+  <a href="https://github.com/rawsodium/discogra.py" target="_blank" rel="noreferrer"><img src={ghLogo} width="50" height="50"></img></a> 
+  <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer"><img src={discogsLogo} width="100" height="50"></img></a>
 </div>
 
 const Discograpy = 
@@ -73,14 +73,14 @@ const Goose =
   <Fade right>
     <h2>Ms. Fens' Gaggle | February 2022</h2>
       <h3>Vue.js, TypeScript, JavaScript, HTML</h3>
-        <p>Play the game <a href="https://ms-fens-gaggle.netlify.app/" target="_blank">here</a></p>
+        <p>Play the game <a href="https://ms-fens-gaggle.netlify.app/" target="_blank" rel="noreferrer">here</a></p>
           <ul>
             This was a game created with a team of five other friends for HackBeanpot 2022. The goal of the game is
             to breed a goose with the best possible combination of traits. I worked on rendering the display of each goose's
             traits, as well as composed some of the background music. This was my first hackathon, and overall a fun learning
             experience!
           </ul>
-      <p><a href="https://github.com/thederekkaplan/mrs-fens-gaggle" target="_blank"><img src={ghLogo} width="50" height="50"></img></a></p>
+      <p><a href="https://github.com/thederekkaplan/mrs-fens-gaggle" target="_blank" rel="noreferrer"><img src={ghLogo} width="50" height="50"></img></a></p>
   </Fade>
 </div>
 

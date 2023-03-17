@@ -9,27 +9,27 @@ import { Fade } from "react-awesome-reveal";
 
 const One =
 <div>
-    <img src={PortfolioOne} width="400" height="400"></img>
+    <img src={PortfolioOne} alt="meaningful text" width="400" height="400"></img>
 </div>
 
 const Three =
 <div>
-    <img src={PortfolioThree} width="300" height="400"></img>
+    <img src={PortfolioThree} alt="meaningful text" width="300" height="400"></img>
 </div>
 
 const Four =
 <div>
-    <img src={PortfolioFour} width="300" height="400"></img>
+    <img src={PortfolioFour} alt="meaningful text" width="300" height="400"></img>
 </div>
 
 const Six =
 <div>
-    <img src={PortfolioSix} width="400" height="400"></img>
+    <img src={PortfolioSix} alt="meaningful text" width="400" height="400"></img>
 </div>
 
 const Ten =
 <div>
-    <img src={PortfolioTen} width="300" height="400"></img>
+    <img src={PortfolioTen} alt="meaningful text" width="300" height="400"></img>
 </div>
 
 const Art =

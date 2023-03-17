@@ -30,17 +30,17 @@ const Header =
 
 const LinkedIn =
   <div class="child-contact">
-    <a href="https://www.linkedin.com/in/deanna-turner04/" target="_blank"><img src={liLogo} width="50" height="50"></img></a>
+    <a href="https://www.linkedin.com/in/deanna-turner04/" alt="meaningful text" target="_blank" rel="noreferrer"><img src={liLogo} width="50" height="50"></img></a>
   </div>
 
 const Resume =
   <div class="child-contact">
-    <p><a href="./public/DeannaTurner.pdf" download><img src={resumeIcon} width="75" height="75"></img></a></p>
+    <p><a href="./public/DeannaTurner.pdf" download><img src={resumeIcon} alt="meaningful text" width="75" height="75"></img></a></p>
   </div>
 
 const GitHub =
   <div class="child-contact">
-    <a href="https://github.com/rawsodium" target="_blank"><img src={ghLogo} width="50" height="50"></img></a>
+    <a href="https://github.com/rawsodium" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a>
   </div>
 
 
@@ -99,7 +99,7 @@ const FunFacts =
     <p>Some interesting tidbits about me:
       <ul>
         <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
-        I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank">here</a></li>
+        I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer">here</a></li>
         <li>I'm a multi-instrumentalist. The instruments I play:
           <ul>
             <li>Violin, for 11 years</li>
