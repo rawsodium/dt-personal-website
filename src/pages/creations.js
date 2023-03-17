@@ -5,7 +5,7 @@ import PortfolioFour from '../portfolio/DRT_Portfolio4.JPG';
 import PortfolioSix from '../portfolio/DRT_Portfolio6.JPG';
 import PortfolioTen from '../portfolio/DRT_Portfolio10.JPG';
 import './creations.css';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-reveal';
 
 const One =
 <div>
