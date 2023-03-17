@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import { Fade } from 'react-reveal';
+import { Fade } from "react-awesome-reveal";
 import ghLogo from "../assets/github-logo.png";
 import discogsLogo from "../assets/discogs-logo.png";
 
