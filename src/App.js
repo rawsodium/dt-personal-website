@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Routes, Route, BrowserRouter}
     from 'react-router-dom';
-import Home from './pages';
+//import Home from './pages';
 import About from './pages/about';
 import Projects from './pages/projects';
 import Experience from './pages/experience';
@@ -15,8 +15,7 @@ return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
-            <Route path='/' exact element={<Home />} />
-            <Route path='/about' element={<About/>} />
+            <Route path='/' element={<About/>} />
             <Route path='/projects' element={<Projects/>} />
             <Route path='/experience' element={<Experience/>} />
             <Route path='/creations' element={<Creations/>} />
