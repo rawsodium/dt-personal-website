@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from 'react-reveal';
+import { Fade } from "react-awesome-reveal";
 import './about.css';
 import ghLogo from "../assets/github-logo.png";
 import liLogo from "../assets/linkedin-logo.png";

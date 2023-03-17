@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import { Fade } from 'react-reveal';
+import { Fade } from "react-awesome-reveal";
 
 const Technical =
 <div className="exp-child-technical">
