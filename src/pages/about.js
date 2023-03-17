@@ -30,7 +30,7 @@ const Header =
 
 const LinkedIn =
   <div class="child-contact">
-    <a href="https://www.linkedin.com/in/deanna-turner04/" alt="meaningful text" target="_blank" rel="noreferrer"><img src={liLogo} width="50" height="50"></img></a>
+    <a href="https://www.linkedin.com/in/deanna-turner04/" alt="meaningful text" target="_blank" rel="noreferrer"><img src={liLogo} alt="meaningful text" width="50" height="50"></img></a>
   </div>
 
 const Resume =

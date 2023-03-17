@@ -31,8 +31,8 @@ const Website =
 
 const DiscograpyLinks =
 <div class="links">
-  <a href="https://github.com/rawsodium/discogra.py" target="_blank" rel="noreferrer"><img src={ghLogo} width="50" height="50"></img></a> 
-  <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer"><img src={discogsLogo} width="100" height="50"></img></a>
+  <a href="https://github.com/rawsodium/discogra.py" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a> 
+  <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer"><img src={discogsLogo} alt="meaningful text" width="100" height="50"></img></a>
 </div>
 
 const Discograpy = 
@@ -80,7 +80,7 @@ const Goose =
             traits, as well as composed some of the background music. This was my first hackathon, and overall a fun learning
             experience!
           </ul>
-      <p><a href="https://github.com/thederekkaplan/mrs-fens-gaggle" target="_blank" rel="noreferrer"><img src={ghLogo} width="50" height="50"></img></a></p>
+      <p><a href="https://github.com/thederekkaplan/mrs-fens-gaggle" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a></p>
   </Fade>
 </div>
 
