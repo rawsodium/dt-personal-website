@@ -62,16 +62,4 @@ const Experience = () => {
     );
 };
 
-/*
-            <li>Hold weekly office hours for 700+ students to provide support on course topics and assignments</li>
-            <li>Host a weekly lab for 30+ students to solidify understanding of programming design principles</li>
-            <li>Grade and provide constructive feedback on 15 homework and lab assignments per week</li>
-
-                            <ul>
-                    <li>Serve as an assistant engineer to record the song "Ant" with Main Era</li>
-                    <li>Served as an engineer-in-training to record the song "Chrysanthemums" with Clifford the Band</li>
-                    <li>Recorded audio of presentations for Music Technology Capstone class in April 2022</li>
-                </ul>
-*/
-
 export default Experience;
