@@ -4,7 +4,6 @@ import { Fade } from "react-awesome-reveal";
 
 const Technical =
 <div className="exp-child-technical">
-    <Fade down>
         <h1>Technical Knowledge</h1>
             <h2>Languages</h2>
                 <p>Java | Python | C++ | HTML/CSS | JavaScript | Racket/Lisp </p>
@@ -14,7 +13,6 @@ const Technical =
                 <p>numPy | pandas | Matplotlib | seaborn</p>
             <h2>Systems</h2>
                 <p>macOS X | Linux (Ubuntu) | Windows Legacy</p>
-    </Fade>
 </div>
 
 const Ta = 
@@ -46,11 +44,9 @@ const Glr =
 
 const Work = 
 <div class="exp-child-work">
-    <Fade up>
         <h1>Work Experience</h1>
         {Ta}
         {Glr}
-    </Fade>
 </div>
 
 const Experience = () => {
