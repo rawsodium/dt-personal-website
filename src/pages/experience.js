@@ -34,7 +34,7 @@ const Glr =
     <h2>Recording Engineer</h2>
         <h3>Green Line Records | September 2021 - Present</h3>
             <p> Green Line Records is Northeastern's student-run record label. We sign local artists, record, promote and distribute their music.
-                My responsibilities as a recording engineer include helping set up microphones and ensuring proper signal flow during recoring sessions.
+                My responsibilities as a recording engineer include helping set up microphones and ensuring proper signal flow during recording sessions.
                 <br></br>
                 <br></br>
                 Most recently, I served as an assistant engineer to help Main Era record their upcoming song "Ant". Other songs
