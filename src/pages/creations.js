@@ -34,10 +34,12 @@ const Ten =
 
 const Art =
 <div>
+    <Fade down>
         <p>
             From time to time, I've dabbled in the visual arts as well. I've collected some of the pieces that I've 
             created over the years that I'm proudest of.
         </p>
+    </Fade>
 </div>
 
 const Creations = () => {
@@ -45,11 +47,13 @@ const Creations = () => {
         <div class="creation-parent">
             {Art}
             <div class="creation-child">
+                <Fade up>
                 {One}
                 {Three}
                 {Four}
                 {Six}
                 {Ten}
+            </Fade>
             </div>
         </div>
     );
