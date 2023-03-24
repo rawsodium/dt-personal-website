@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/App.css';
 import Home from './Home';
 import Navbar from './Navbar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Projects from './Projects';
 import Experience from './Experience';
 import Creations from './Creations';
@@ -13,7 +13,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL}>
         <div id="page-content">
           <Navbar />
             <Routes>
@@ -25,7 +25,7 @@ function App() {
             </Routes>
             <Footer />
         </div>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
