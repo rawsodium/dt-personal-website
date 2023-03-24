@@ -1,11 +1,9 @@
 import React from 'react'
-import './experience.css'
-import { Fade } from "react-awesome-reveal";
+import '../styles/experience.css'
 
 const Technical =
 <div className="exp-child-technical">
-    <Fade top>
-        <h1>Technical Knowledge</h1>
+    <h1>Technical Knowledge</h1>
             <h2>Languages</h2>
                 <p>Java | Python | C++ | HTML/CSS | JavaScript | Racket/Lisp </p>
             <h2>Frameworks/Tools</h2>
@@ -14,7 +12,6 @@ const Technical =
                 <p>numPy | pandas | Matplotlib | seaborn</p>
             <h2>Systems</h2>
                 <p>macOS X | Linux (Ubuntu) | Windows Legacy</p>
-    </Fade>
 </div>
 
 const Ta = 
@@ -46,20 +43,18 @@ const Glr =
 
 const Work = 
 <div class="exp-child-work">
-    <Fade down>
-        <h1>Work Experience</h1>
+<h1>Work Experience</h1>
         {Ta}
         {Glr}
-    </Fade>
 </div>
 
-const Experience = () => {
+function Experience () {
     return (
         <div className="exp-parent">
             {Technical}
             {Work}
         </div>
     );
-};
+}
 
 export default Experience;

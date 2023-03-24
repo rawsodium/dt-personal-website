@@ -1,27 +1,8 @@
 import React from "react";
-import { Fade } from "react-awesome-reveal";
-import './about.css';
+import "../styles/home.css";
 import ghLogo from "../assets/github-logo.png";
 import liLogo from "../assets/linkedin-logo.png";
 import resumeIcon from "../assets/resume-icon.png";
-
-/*
-const Music = 
-  <div>
-    <Draggable>
-      <p>Click here to play some of my favorite songs through Spotify!</p>
-    </Draggable>
-  </div>
-  */
-
-  /*
-const albumChooser = 
-  <Draggable>
-    <div>
-      <p>test</p>
-    </div>
-  </Draggable>
-  */
 
 const Header =
 <div>
@@ -43,9 +24,8 @@ const GitHub =
     <a href="https://github.com/rawsodium" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a>
   </div>
 
-
 const Contact = 
-<div class="parent-contact">
+<div className="parent-contact">
   {Header}
   <div class="links-contact">
     {LinkedIn}
@@ -59,15 +39,12 @@ const Pad =
 </div>
 
 const Name =
-<div class="name">
-  <Fade down>
+<div className="name">
     <h1>hi there, my name is deanna (she/her)</h1>
-  </Fade>
 </div>
 
 const Pitch =
-<div class="info-text">
-  <Fade left>
+<div className="info-text">
     <p>
       I'm a second year at Northeastern University studying Computer Science and Music Technology.
     </p>
@@ -90,12 +67,10 @@ const Pitch =
     <p>
       I am currently seeking <a href="https://careers.northeastern.edu/cooperative-education/">co-op</a> and internship opportunities from June to December 2023.
     </p>
-  </Fade>
 </div>
 
 const FunFacts =
-<div class="info-text">
-  <Fade right>
+<div className="info-text">
     <p>Some interesting tidbits about me:
       <ul>
         <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
@@ -112,21 +87,20 @@ const FunFacts =
         <li>My favorite bands and artists are: Fleetwood Mac, Stevie Nicks, The Beatles, ABBA, The Beach Boys, and Harry Styles</li>
       </ul>
     </p>
-  </Fade>
 </div>
 
-const About = () => {
-  return (
-    <div>
-      {Name}
-      <div class="parent-about">
-        {Pitch}
-        {Contact}
-        {Pad}
-        {FunFacts}
+function Home() {
+    return (
+        <div>
+            {Name}
+            <div class="parent-about">
+                {Pitch}
+                {Contact}
+                {Pad}
+                {FunFacts}
+            </div>
       </div>
-    </div>
-  );
-};
-  
-export default About;
+    );
+}
+
+export default Home;

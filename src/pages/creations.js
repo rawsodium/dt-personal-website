@@ -1,11 +1,10 @@
 import React from 'react';
-import PortfolioOne from '../portfolio/DRT_Portfolio1.JPG';
-import PortfolioThree from '../portfolio/DRT_Portfolio3.JPG';
-import PortfolioFour from '../portfolio/DRT_Portfolio4.JPG';
-import PortfolioSix from '../portfolio/DRT_Portfolio6.JPG';
-import PortfolioTen from '../portfolio/DRT_Portfolio10.JPG';
-import './creations.css';
-import { Fade } from "react-awesome-reveal";
+import PortfolioOne from '../assets/DRT_Portfolio1.JPG';
+import PortfolioThree from '../assets/DRT_Portfolio3.JPG';
+import PortfolioFour from '../assets/DRT_Portfolio4.JPG';
+import PortfolioSix from '../assets/DRT_Portfolio6.JPG';
+import PortfolioTen from '../assets/DRT_Portfolio10.JPG';
+import '../styles/creations.css';
 
 const One =
 <div>
@@ -34,29 +33,25 @@ const Ten =
 
 const Art =
 <div>
-    <Fade down>
-        <p>
-            From time to time, I've dabbled in the visual arts as well. I've collected some of the pieces that I've 
-            created over the years that I'm proudest of.
-        </p>
-    </Fade>
+    <p>
+        From time to time, I've dabbled in the visual arts as well. I've collected some of the pieces that I've 
+        created over the years that I'm proudest of.
+     </p>
 </div>
 
-const Creations = () => {
-    return (
+function Creations() {
+    return(
         <div class="creation-parent">
             {Art}
             <div class="creation-child">
-                <Fade up>
                 {One}
                 {Three}
                 {Four}
                 {Six}
                 {Ten}
-            </Fade>
             </div>
         </div>
     );
-};
+}
 
 export default Creations;
