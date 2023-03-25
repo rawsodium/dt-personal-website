@@ -3,11 +3,11 @@ import './styles/App.css';
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Projects from '/dt-personal-website/pages/Projects';
-import Experience from '/dt-personal-website/pages/Experience';
-import Creations from '/dt-personal-website/pages/Creations';
-import NotFound from '/dt-personal-website/pages/NotFound'
-import Footer from '/dt-personal-website/pages/Footer';
+import Projects from './pages/Projects';
+import Experience from './pages/Experience';
+import Creations from './pages/Creations';
+import NotFound from './pages/NotFound'
+import Footer from './pages/Footer';
 
 
 function App() {
