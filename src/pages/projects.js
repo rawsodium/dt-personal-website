@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/projects.css';
 import ghLogo from "../assets/github-logo.png";
 import discogsLogo from "../assets/discogs-logo.png";
+import { Fade } from "react-awesome-reveal";
 
 const WebsiteLink =
 <div class="links-project">
@@ -10,6 +11,7 @@ const WebsiteLink =
 
 const Website = 
 <div class="website">
+  <Fade left>
     <h2>This website | March 2023 - Present (working on updates)</h2>
       <h3>React.js, Node.js, HTML, CSS, JavaScript, Spotify Web API</h3>
         <ul>
@@ -22,6 +24,7 @@ const Website =
           </p>
         </ul>
     {WebsiteLink}
+    </Fade>
 </div>
 
 const DiscograpyLinks =
