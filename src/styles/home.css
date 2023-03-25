@@ -16,10 +16,9 @@
 }
 
 .parent-contact {
-    display: grid;
+    align-items: center;
     font-family: "Avenir Next";
     text-align: center;
-    grid-template-rows: 15% 20%;
 }
 
 .child-contact {
@@ -29,6 +28,15 @@
 }
 
 .links-contact {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+    display: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.container {
+    display: flex;
+    margin: auto;
 }

@@ -26,11 +26,17 @@ const GitHub =
 
 const Contact = 
 <div className="parent-contact">
-  {Header}
-  <div class="links-contact">
-    {LinkedIn}
-    {Resume}
-    {GitHub}
+  <div className="container">
+    <table>
+      <tr>
+        <th colspan="3">{Header}</th>
+      </tr>
+      <tr>
+        <td>{LinkedIn}</td>
+        <td>{Resume}</td>
+        <td>{GitHub}</td>
+      </tr>
+    </table>
   </div>
 </div>
 
