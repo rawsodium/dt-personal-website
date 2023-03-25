@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dt-personal-website/static/css/main.75bef66b.css",
+    "main.js": "/dt-personal-website/static/js/main.0482ad05.js",
+    "static/media/DRT_Portfolio10.JPG": "/dt-personal-website/static/media/DRT_Portfolio10.ef56c058fde337d320a7.JPG",
+    "static/media/DRT_Portfolio4.JPG": "/dt-personal-website/static/media/DRT_Portfolio4.4d870c6140818423931d.JPG",
+    "static/media/DRT_Portfolio3.JPG": "/dt-personal-website/static/media/DRT_Portfolio3.99059175401addc52098.JPG",
+    "static/media/DRT_Portfolio1.JPG": "/dt-personal-website/static/media/DRT_Portfolio1.2d14be1dabaf5c90d404.JPG",
+    "static/media/DRT_Portfolio6.JPG": "/dt-personal-website/static/media/DRT_Portfolio6.0f595fdfad7ec78c3040.JPG",
+    "static/media/discogs-logo.png": "/dt-personal-website/static/media/discogs-logo.5f45fe9106652cb34699.png",
+    "static/media/linkedin-logo.png": "/dt-personal-website/static/media/linkedin-logo.ba884e1f9ad4362348c1.png",
+    "index.html": "/dt-personal-website/index.html",
+    "main.75bef66b.css.map": "/dt-personal-website/static/css/main.75bef66b.css.map",
+    "main.0482ad05.js.map": "/dt-personal-website/static/js/main.0482ad05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75bef66b.css",
+    "static/js/main.0482ad05.js"
+  ]
+}
