@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles/App.css';
 import Home from './pages/Home';
-import Navbar from './pages/Navbar';
+import Navbar from './pages/navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Projects from './pages/projects';
-import Experience from './pages/Experience';
-import Creations from './pages/Creations';
-import NotFound from './pages/NotFound'
-import Footer from './pages/Footer';
+import Experience from './pages/experience';
+import Creations from './pages/creations';
+import NotFound from './pages/notFound'
+import Footer from './pages/footer';
 
 function App() {
   return (
