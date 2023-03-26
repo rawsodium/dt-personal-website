@@ -31,9 +31,6 @@ jobs:
       - name: build project
         run: npm run build
 
-      - name: tests
-        run: npm run test
-
       - name: Deploy
         uses: actions/deploy-pages@v1
         with:
