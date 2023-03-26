@@ -4,12 +4,12 @@ import ghLogo from "../assets/github-logo.png";
 import discogsLogo from "../assets/discogs-logo.png";
 
 const WebsiteLink =
-<div class="links-project">
+<div className="links-project">
     <a href="https://github.com/rawsodium/dt-personal-website" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a>
 </div>
 
 const Website = 
-<div class="website">
+<div className="website">
     <h2>This website | March 2023 - Present (working on updates)</h2>
       <h3>React.js, Node.js, HTML, CSS, JavaScript, Spotify Web API</h3>
         <ul>
@@ -25,13 +25,13 @@ const Website =
 </div>
 
 const DiscograpyLinks =
-<div class="links">
+<div className="links">
   <a href="https://github.com/rawsodium/discogra.py" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a> 
   <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer"><img src={discogsLogo} alt="meaningful text" width="100" height="50"></img></a>
 </div>
 
 const Discograpy = 
-<div class="ds-proj">
+<div className="ds-proj">
     <h2> Discogra.py | March 2023 - Present (in progress)</h2>
       <h3>Python, Jupyter Notebook, numPy, pandas, Matplotlib, seaborn</h3>
         <ul>
@@ -46,7 +46,7 @@ const Discograpy =
 </div>
 
 const ImageProcessor = 
-<div class="image-processor">
+<div className="image-processor">
     <h2>Image Processor | October - December 2022</h2>
       <h3>Java, JUnit, Swing</h3>
         <ul>
@@ -60,7 +60,7 @@ const ImageProcessor =
 </div>
 
 const Goose =
-<div class="goose">
+<div className="goose">
     <h2>Ms. Fens' Gaggle | February 2022</h2>
       <h3>Vue.js, TypeScript, JavaScript, HTML</h3>
         <p>Play the game <a href="https://ms-fens-gaggle.netlify.app/" target="_blank" rel="noreferrer">here</a></p>
@@ -79,7 +79,7 @@ const Pad =
 
 function Projects() {
     return (
-        <div class="project-parent">
+        <div className="project-parent">
           {Website}
           {Pad}
           {Pad}

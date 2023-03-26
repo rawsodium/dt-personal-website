@@ -41,9 +41,9 @@ const Art =
 
 function Creations() {
     return(
-        <div class="creation-parent">
+        <div className="creation-parent">
             {Art}
-            <div class="creation-child">
+            <div className="creation-child">
                 {One}
                 {Three}
                 {Four}

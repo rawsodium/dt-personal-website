@@ -15,7 +15,7 @@ const Technical =
 </div>
 
 const Ta = 
-<div class="ta">
+<div className="ta">
 <h2>Teaching Assistant, Fundamentals of Computer Science 1 (CS2500)</h2>
     <h3>Khoury College of Computer Sciences | September 2022 - Present</h3>
         <p>
@@ -27,7 +27,7 @@ const Ta =
 </div>
 
 const Glr = 
-<div class="glr">
+<div className="glr">
     <h2>Recording Engineer</h2>
         <h3>Green Line Records | September 2021 - Present</h3>
             <p> Green Line Records is Northeastern's student-run record label. We sign local artists, record, promote and distribute their music.
@@ -42,7 +42,7 @@ const Glr =
 </div>
 
 const Work = 
-<div class="exp-child-work">
+<div className="exp-child-work">
 <h1>Work Experience</h1>
         {Ta}
         {Glr}

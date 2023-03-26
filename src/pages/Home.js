@@ -10,17 +10,17 @@ const Header =
 </div>
 
 const LinkedIn =
-  <div class="child-contact">
+  <div className="child-contact">
     <a href="https://www.linkedin.com/in/deanna-turner04/" alt="meaningful text" target="_blank" rel="noreferrer"><img src={liLogo} alt="meaningful text" width="50" height="50"></img></a>
   </div>
 
 const Resume =
-  <div class="child-contact">
+  <div className="child-contact">
     <p><a href="./public/DeannaTurner.pdf" download><img src={resumeIcon} alt="meaningful text" width="75" height="75"></img></a></p>
   </div>
 
 const GitHub =
-  <div class="child-contact">
+  <div className="child-contact">
     <a href="https://github.com/rawsodium" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a>
   </div>
 
@@ -99,7 +99,7 @@ function Home() {
     return (
         <div>
             {Name}
-            <div class="parent-about">
+            <div className="parent-about">
                 {Pitch}
                 {Contact}
                 {Pad}
