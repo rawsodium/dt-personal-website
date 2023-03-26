@@ -3,7 +3,7 @@ import './styles/App.css';
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Projects from './pages/Projects';
+import Projects from './pages/projects';
 import Experience from './pages/Experience';
 import Creations from './pages/Creations';
 import NotFound from './pages/NotFound'
