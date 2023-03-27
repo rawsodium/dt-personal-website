@@ -3,10 +3,11 @@ import "../styles/home.css";
 import ghLogo from "../assets/github-logo.png";
 import liLogo from "../assets/linkedin-logo.png";
 import resumeIcon from "../assets/resume-icon.png";
+import { Fade } from 'react-awesome-reveal';
 
 const Header =
 <div>
-  <h1>Contact me:</h1>
+  <h2>Contact me:</h2>
 </div>
 
 const LinkedIn =
@@ -46,11 +47,16 @@ const Pad =
 
 const Name =
 <div className="name">
-    <h1>hi there, my name is deanna (she/her)</h1>
+  <h1>
+    <Fade cascade duration="200" triggerOnce>
+      hi there, my name is Deanna
+    </Fade>
+  </h1>
 </div>
 
 const Pitch =
 <div className="info-text">
+  <Fade cascade direction="down" triggerOnce damping={0.7}>
     <p>
       I'm a second year at Northeastern University studying Computer Science and Music Technology.
     </p>
@@ -61,7 +67,7 @@ const Pitch =
     <p>
       I love tinkering with new tools and technologies, and I'm always eager to learn and challenge myself. I'm currently working on improving
       this website and visualizing music data, both of which are using tools I haven't worked with before. Some other
-      things I'd like to learn by building projects include Raspberry Pi, and some of the C++ audio libraries.
+      things I'd like to learn by building projects include Raspberry Pi, some of the C++ audio libraries, and SQL.
     </p>
     <p>
       I consider my ability to adapt and my resilience to be my greatest strengths. I did not come into college studying computer science,
@@ -71,13 +77,16 @@ const Pitch =
       something that has shaped my work ethic and many other aspects of my life.
     </p>
     <p>
-      I am currently seeking <a href="https://careers.northeastern.edu/cooperative-education/">co-op</a> and internship opportunities from June to December 2023.
+      I am currently seeking <a href="https://careers.northeastern.edu/cooperative-education/" target="_blank" rel="noreferrer">co-op</a> and internship opportunities from June to December 2023.
     </p>
+  </Fade>
 </div>
 
 const FunFacts =
 <div className="info-text">
-    <p>Some interesting tidbits about me:
+    <p>
+      <p><Fade cascade duration="100" triggerOnce>Some interesting tidbits about me:</Fade></p>
+    <Fade cascade direction="down" triggerOnce>
       <ul>
         <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
         I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer">here</a></li>
@@ -92,6 +101,7 @@ const FunFacts =
         <li>I did mixed martial arts for 11 years, nearly earning a black belt.</li>
         <li>My favorite bands and artists are: Fleetwood Mac, Stevie Nicks, The Beatles, ABBA, The Beach Boys, and Harry Styles</li>
       </ul>
+      </Fade>
     </p>
 </div>
 

@@ -1,17 +1,20 @@
 import React from 'react'
 import '../styles/experience.css'
+import { Fade } from 'react-awesome-reveal';
 
 const Technical =
 <div className="exp-child-technical">
-    <h1>Technical Knowledge</h1>
+    <h1><Fade cascade duration="250" triggerOnce>Technical Knowledge</Fade></h1>
+        <Fade direction="down" triggerOnce>
             <h2>Languages</h2>
-                <p>Java | Python | C++ | HTML/CSS | JavaScript | Racket/Lisp </p>
+                <p>Java | Python | HTML/CSS | JavaScript | C++ | Racket/Lisp </p>
             <h2>Frameworks/Tools</h2>
                 <p>React.js | Node.js | JUnit | VS Code | IntelliJ IDEA | PyCharm | Eclipse | Vim | Bash/zsh | GitHub | MaxMSP | Logic Pro | Pro Tools</p>
             <h2>Libraries</h2>
                 <p>numPy | pandas | Matplotlib | seaborn</p>
             <h2>Systems</h2>
                 <p>macOS X | Linux (Ubuntu) | Windows Legacy</p>
+    </Fade>
 </div>
 
 const Ta = 
@@ -43,9 +46,13 @@ const Glr =
 
 const Work = 
 <div className="exp-child-work">
-<h1>Work Experience</h1>
-        {Ta}
-        {Glr}
+    <h1><Fade cascade duration="250" triggerOnce>Work Experience</Fade></h1>
+            <Fade direction="down" triggerOnce>
+            {Ta}
+            </Fade>
+            <Fade direction="up" triggerOnce>
+            {Glr}
+            </Fade>
 </div>
 
 function Experience () {
