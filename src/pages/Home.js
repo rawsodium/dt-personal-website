@@ -25,6 +25,29 @@ const GitHub =
     <a href="https://github.com/rawsodium" target="_blank" rel="noreferrer"><img src={ghLogo} alt="meaningful text" width="50" height="50"></img></a>
   </div>
 
+const FunFacts =
+<div className="info-text">
+    <p>
+      <p><Fade cascade duration="100" triggerOnce>Some interesting tidbits about me:</Fade></p>
+    <Fade cascade direction="down" triggerOnce>
+      <ul>
+        <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
+        I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer">here</a></li>
+        <li>I'm a multi-instrumentalist. The instruments I play:
+          <ul>
+            <li>Violin, for 11 years</li>
+            <li>Guitar (electric and acoustic), for 5 years</li>
+            <li>Bass Guitar, for 2 years</li>
+            <li>Piano (a basic amount), for 1 year</li>
+          </ul>
+        </li>
+        <li>I did mixed martial arts for 11 years, nearly earning a black belt.</li>
+        <li>My favorite bands and artists are: Fleetwood Mac, Stevie Nicks, The Beatles, ABBA, The Beach Boys, and Harry Styles</li>
+      </ul>
+      </Fade>
+    </p>
+</div>
+
 const Contact = 
 <div className="parent-contact">
   <div className="container">
@@ -39,6 +62,7 @@ const Contact =
       </tr>
     </table>
   </div>
+  {FunFacts}
 </div>
 
 const Pad =
@@ -82,28 +106,6 @@ const Pitch =
   </Fade>
 </div>
 
-const FunFacts =
-<div className="info-text">
-    <p>
-      <p><Fade cascade duration="100" triggerOnce>Some interesting tidbits about me:</Fade></p>
-    <Fade cascade direction="down" triggerOnce>
-      <ul>
-        <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
-        I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer">here</a></li>
-        <li>I'm a multi-instrumentalist. The instruments I play:
-          <ul>
-            <li>Violin, for 11 years</li>
-            <li>Guitar (electric and acoustic), for 5 years</li>
-            <li>Bass Guitar, for 2 years</li>
-            <li>Piano (a basic amount), for 1 year</li>
-          </ul>
-        </li>
-        <li>I did mixed martial arts for 11 years, nearly earning a black belt.</li>
-        <li>My favorite bands and artists are: Fleetwood Mac, Stevie Nicks, The Beatles, ABBA, The Beach Boys, and Harry Styles</li>
-      </ul>
-      </Fade>
-    </p>
-</div>
 
 function Home() {
     return (
@@ -113,7 +115,6 @@ function Home() {
                 {Pitch}
                 {Contact}
                 {Pad}
-                {FunFacts}
             </div>
       </div>
     );
