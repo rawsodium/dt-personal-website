@@ -27,6 +27,7 @@ const Classes =
         </ul>
     </Fade>
 </div>
+*/
 
 const Technical =
 <div className="exp-child-technical">
@@ -42,7 +43,6 @@ const Technical =
                 <p>macOS X | Linux (Ubuntu) | Windows Legacy</p>
     </Fade>
 </div>
-*/
 
 const Ta = 
 <div className="ta">
