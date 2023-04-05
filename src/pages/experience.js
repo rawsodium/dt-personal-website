@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/experience.css'
 import { Fade } from 'react-awesome-reveal';
 
+/*
 const Classes =
 <div>
     <h1><Fade cascade duration="250" triggerOnce>Relevant Coursework</Fade></h1>
@@ -41,6 +42,7 @@ const Technical =
                 <p>macOS X | Linux (Ubuntu) | Windows Legacy</p>
     </Fade>
 </div>
+*/
 
 const Ta = 
 <div className="ta">
