@@ -1,5 +1,5 @@
 body {
-    background-color: #CBE4DE;
+    background-image: linear-gradient(180deg, #CBE4DE, #57a894);
   }
   
   .project-parent {
@@ -32,22 +32,7 @@ body {
     text-align: right;
   }
 
-  .website {
-    padding: 1rem 1rem;
-    text-align: left;
-  }
-
-  .image-processor {
-    padding: 1rem 1rem;
-    text-align: left;
-  }
-
-  .ds-proj {
-    padding: 1rem 1rem;
-    text-align: left;
-  }
-
-  .goose {
+  .small-proj {
     padding: 1rem 1rem;
     text-align: left;
   }

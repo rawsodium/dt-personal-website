@@ -10,6 +10,20 @@ const Header =
   <h2>Contact me:</h2>
 </div>
 
+const onButtonClick = () => {
+  fetch('DeannaTurner.pdf').then(response => {
+    response.blob().then(blob => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'DeannaTurner.pdf';
+        alink.click();
+    })
+  })
+}
+
 const LinkedIn =
   <div className="child-contact">
     <a href="https://www.linkedin.com/in/deanna-turner04/" alt="meaningful text" target="_blank" rel="noreferrer"><img src={liLogo} alt="meaningful text" width="50" height="50"></img></a>
@@ -17,7 +31,7 @@ const LinkedIn =
 
 const Resume =
   <div className="child-contact">
-    <p><a href="./public/DeannaTurner.pdf" download><img src={resumeIcon} alt="meaningful text" width="75" height="75"></img></a></p>
+    <p><button onClick={onButtonClick}><img src={resumeIcon} alt="meaningful text" width="75" height="75"></img></button></p>
   </div>
 
 const GitHub =

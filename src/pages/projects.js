@@ -12,7 +12,7 @@ const WebsiteLink =
 </table>
   
 const Website = 
-<div className="website">
+<div className="small-proj">
     <h2><Fade cascade duration="150" triggerOnce>This website | March 2023 - Present (working on updates)</Fade> </h2>
       <h3>React.js, Node.js, HTML, CSS, Spotify Web API</h3>
         <ul>
@@ -36,7 +36,7 @@ const DiscograpyLinks =
   </table>
 
 const Discograpy = 
-<div className="ds-proj">
+<div className="small-proj">
     <h2><Fade cascade duration="150" triggerOnce>Discogra.py | March 2023 - Present (in progress)</Fade></h2>
       <h3>Python, Jupyter Notebook, numPy, pandas, Matplotlib, seaborn</h3>
         <ul>
@@ -51,7 +51,7 @@ const Discograpy =
 </div>
 
 const ImageProcessor = 
-<div className="image-processor">
+<div className="small-proj">
     <h2><Fade cascade duration="150" triggerOnce>Image Processor | October - November 2022</Fade></h2>
       <h3>Java, JUnit, Swing</h3>
         <ul>
@@ -65,7 +65,7 @@ const ImageProcessor =
 </div>
 
 const Goose =
-<div className="goose">
+<div className="small-proj">
     <h2><Fade cascade duration="150" triggerOnce>Ms. Fens' Gaggle | February 2022</Fade></h2>
       <h3>Vue.js, TypeScript, JavaScript, HTML</h3>
         <p>Play the game <a href="https://ms-fens-gaggle.netlify.app/" target="_blank" rel="noreferrer">here</a></p>
@@ -80,6 +80,17 @@ const Goose =
       </table>
 </div>
 
+const NextProjects = 
+<div className="small-proj">
+  <h2><Fade cascade duration="200" triggerOnce>Projects in Development:</Fade></h2>
+    <h3>Sodium Equalizer (AU Plugin) | C++, JUCE</h3>
+      <p>I've used many equalizer (EQ) plugins over the years, but none have all of the UI features that I want. 
+        With this project, the aim is to strengthen my understanding of digital signal processing, C++, and GUI design
+        to create my own ideal parametric EQ plugin.</p>
+    <h3>Synthepyzer | Python, Portaudio, pyaudio</h3>
+      <p>A small pun, but I plan on making use of some of the Python audio libraries to create a simple synthesizer.</p>
+</div>
+
 const Pad = 
 <div className="pad-projects">
 </div>
@@ -88,7 +99,7 @@ function Projects() {
     return (
         <div className="project-parent">
           {Website}
-          {Pad}
+          {NextProjects}
           {Pad}
           {Discograpy}
           {ImageProcessor}
