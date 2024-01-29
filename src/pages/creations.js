@@ -5,7 +5,6 @@ import PortfolioFour from '../assets/DRT_Portfolio4.JPG';
 import PortfolioSix from '../assets/DRT_Portfolio6.JPG';
 import PortfolioTen from '../assets/DRT_Portfolio10.JPG';
 import '../styles/creations.css';
-//import { Carousel } from "react-responsive-carousel";
 
 const One =
 <div>

@@ -14,13 +14,13 @@ const WebsiteLink =
 const Website = 
 <div className="small-proj">
     <h2><Fade cascade duration="150" triggerOnce>This website | March 2023 - Present (working on updates)</Fade> </h2>
-      <h3>React.js, Node.js, HTML, CSS, Spotify Web API</h3>
+      <h3>React, Node</h3>
         <ul>
           <p>
             I consider this website a little corner of the internet where others can get to know me a little better.
             I want to be able to showcase some of the things that I normally don't get to. It's still very much a work in
             progress, but I'm working on rolling out updates. This was built as a way for me to strengthen my web development skills,
-            and also to learn how to use React.js. Next on my to-do list for this site is to work with Spotify's API to be
+            and also to learn how to use React. Next on my to-do list for this site is to work with Spotify's API to be
             able to play some of my favorite music through the homepage!
           </p>
         </ul>
@@ -67,7 +67,7 @@ const ImageProcessor =
 const Goose =
 <div className="small-proj">
     <h2><Fade cascade duration="150" triggerOnce>Ms. Fens' Gaggle | February 2022</Fade></h2>
-      <h3>Vue.js, TypeScript, JavaScript, HTML</h3>
+      <h3>Vue, TypeScript</h3>
         <p>Play the game <a href="https://ms-fens-gaggle.netlify.app/" target="_blank" rel="noreferrer">here</a></p>
           <ul>
             This was a game created with a team of five other friends for HackBeanpot 2022. The goal of the game is
@@ -82,13 +82,16 @@ const Goose =
 
 const NextProjects = 
 <div className="small-proj">
-  <h2><Fade cascade duration="200" triggerOnce>Projects in Development:</Fade></h2>
-    <h3>Sodium Equalizer (AU Plugin) | C++, JUCE</h3>
-      <p>I've used many equalizer (EQ) plugins over the years, but none have all of the UI features that I want. 
-        With this project, the aim is to strengthen my understanding of digital signal processing, C++, and GUI design
-        to create my own ideal parametric EQ plugin.</p>
-    <h3>Synthepyzer | Python, Portaudio, pyaudio</h3>
-      <p>A small pun, but I plan on making use of some of the Python audio libraries to create a simple synthesizer.</p>
+  <h2><Fade cascade duration="200" triggerOnce>Projects in the works:</Fade></h2>
+    <h3>Basic Shell | C</h3>
+      <p>A simple UNIX-style shell that I'm working on for my Computer Systems class. It supports commands like cd, pwd, exit, executables, and file input/output redirection.</p>
+    <h3>MBTA Closure Map | Vue, Node, REST APIs, MongoDB</h3>
+      <p>I got the idea for this after the last few large Green Line closures. I wanted a better way to see the entire MBTA subway map 
+        and be able to spot where the closures are, instead of corroborating information through various sources. I'm still working on
+        architecting the data flow, but the general plan is to grab data from MBTA's public API, clean it up, store it in MongoDB and refresh
+        every 12-24 hours or so.</p>
+    <h3>Win Whamageddon | Python, Spotify API</h3>
+      <p>A small idea I had after losing Whamageddon for a third year in a row. It's a simple python script that removes Wham!'s "Last Christmas" from a user's playlists.</p>
 </div>
 
 const Pad = 
