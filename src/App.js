@@ -2,17 +2,17 @@ import React from 'react';
 import './styles/App.css';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Projects from './pages/projects';
-import Experience from './pages/experience';
-import Creations from './pages/creations';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Projects from './pages/Projects';
+import Experience from './pages/Experience';
+import Creations from './pages/Creations';
 import NotFound from './pages/NotFound'
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <div id="page-content">
           <Navbar />
             <Routes>
@@ -24,7 +24,7 @@ function App() {
             </Routes>
             <Footer />
         </div>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
