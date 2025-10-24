@@ -186,9 +186,9 @@ const NextProjects =
       <p>A small idea I had after losing Whamageddon for many years in a row. It's a simple python script that removes Wham!'s "Last Christmas" from a user's playlists.</p>
 </div>
 
-const Pad = 
-<div className="pad-projects">
-</div>
+// const Pad = 
+// <div className="pad-projects">
+// </div>
 
 function Projects() {
     return (
