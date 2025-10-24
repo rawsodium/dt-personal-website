@@ -11,7 +11,7 @@ const Header =
 </div>
 
 const onButtonClick = () => {
-  fetch('DeannaTurnerResume.pdf').then(response => {
+  fetch('DeannaTurner1025.pdf').then(response => {
     response.blob().then(blob => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
@@ -89,25 +89,27 @@ const Pitch =
 <div className="info-text">
   <Fade cascade direction="down" triggerOnce damping={0.7}>
     <p>
-      I'm a third year at Northeastern University studying Computer Science and Music Technology.
+      I'm in the final year of my masters in Computer Science at Northeastern University, slated to graduate in May 2026. 
+      I graduated with my Bachelor's in Computer Science and Music Technology from Northeastern in May 2025.
     </p>
     <p>
-      I'm passionate about software engineering, audio engineering, and the intersection between the two. In the future, I hope
-      to work on developing audio plugins, digital audio workstations, and other music related software. 
+      I'm passionate about software engineering, audio engineering, and the intersection between the two. Being both a musician and a software
+      engineer has uniquely shaped my perspective in that I deeply understand both the technical and creative aspects of a project. I use this blend of
+      knowledge in everything I do in order to make sure the things I build strike the right balance of functionality and user satisfaction.
     </p>
     <p>
       I love tinkering with new tools and technologies, and I'm always eager to learn and challenge myself. Some
       things I'd like to learn by building projects include Raspberry Pi and some of the C++ audio libraries.
     </p>
     <p>
-      I consider my ability to adapt and my resilience to be my greatest strengths. I did not come into college studying computer science,
-      and as a result I have had to put in extra work to get myself up to speed with my peers. In addition to my coursework, I have self-studied
+      I consider my ability to adapt and my resilience to be my greatest strengths. I did not originally come into college studying computer science,
+      and as a result I had to put in extra work to get myself up to speed with my peers. In addition to my coursework, I have self-studied
       several programming languages, tools, and technologies in order to diversify my skillset beyond what I've learned in the classroom. Additionally,
       through my training as a martial artist, I have learned to never back down from a challenge, no matter how difficult it gets, which is
       something that has shaped my work ethic and many other aspects of my life.
     </p>
     <p>
-      I am currently seeking <a href="https://careers.northeastern.edu/cooperative-education/" target="_blank" rel="noreferrer">co-op</a> and internship opportunities from May to August 2024.
+      I am currently seeking full-time software engineering jobs in the Boston area!.
     </p>
   </Fade>
 </div>
