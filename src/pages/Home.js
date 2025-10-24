@@ -99,8 +99,7 @@ const Pitch =
       knowledge in everything I do in order to make sure the things I build strike the right balance of functionality and user satisfaction.
     </p>
     <p>
-      I love tinkering with new tools and technologies, and I'm always eager to learn and challenge myself. Some
-      things I'd like to learn by building projects include Raspberry Pi and some of the C++ audio libraries.
+      I love tinkering with new tools and technologies, and I'm always eager to learn and challenge myself. Next, I'd like to learn how to use a Raspberry Pi.
     </p>
     <p>
       I consider my ability to adapt and my resilience to be my greatest strengths. I did not originally come into college studying computer science,
