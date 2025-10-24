@@ -2,6 +2,22 @@ import React from 'react'
 import '../styles/experience.css'
 import { Fade } from 'react-awesome-reveal';
 
+const Extracurriculars =
+<div>
+    <h1><Fade cascade duration="250" triggerOnce>Extracurriculars</Fade></h1>
+    <Fade direction="up" triggerOnce>
+    <p>Throughout my time at Northeastern, I've participated in my fair share of activities and held several leadership positions.</p>
+        <ul>
+            <li>Audio Engineer, Green Line Records Recording Department (September 2021 - May 2025)</li>
+            <li>Violinist, Northeastern University Symphony Orchestra (January 2023 - Present)</li>
+            <li>Bass Guitarist, NUStage Musical Theatre Company Pit Orchestra (September 2024 - May 2025)</li>
+            <li>Electric Guitarist, Northeastern University Pep Band (September 2025 - Present)</li>
+            <li>President/Webmaster, NUHacks (September 2023 - May 2025)</li>
+            <li>Workshop Coordinator/Director, NUSound (January 2024 - Present)</li>
+            <li>Member, Northeastern University Association of Gaming Enthusiasts (NUAGE) (September 2021 - May 2025)</li>
+        </ul>
+    </Fade>
+</div>
 const Classes =
 <div>
     <h1><Fade cascade duration="250" triggerOnce>Relevant Coursework</Fade></h1>
@@ -60,6 +76,7 @@ const Technical =
             <h2>Systems</h2>
                 <p>macOS X, Linux, Windows</p>
     </Fade>
+    {Extracurriculars}
     {Classes}
 </div>
 
