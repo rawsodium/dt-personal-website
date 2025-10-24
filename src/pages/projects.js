@@ -172,13 +172,14 @@ const Goose =
 
 const NextProjects = 
 <div className="small-proj">
+  <h2><Fade cascade duration="200" triggerOnce>Projects in the works:</Fade></h2>
     <h3>MusicBox | Swift, Apple Music API</h3>
       <p>A project I'm working on for my Mobile Application Development (CS5520) class. Think of it as Letterboxd/Goodreads for rating albums.</p>
     <h3>MBTA Closure Map | Vue, Node, MBTA API, Postgres, vis.js</h3>
       <p>I got the idea for this after the few large Green Line closures in 2023. I wanted a better way to see the entire MBTA subway map 
         and be able to spot where the closures are, instead of corroborating information through various sources. I'm still working on
         architecting the data flow, but the general plan is to grab data from MBTA's public API, clean it up, store it in Postgres as a series of
-        nodes and edges and refreshes every 12-24 hours or so. The map will be done with vis.js, which </p>
+        nodes and edges and refreshes every 12-24 hours or so. The map will be done with vis.js, which is built especially for network-type visualizations.</p>
     <h3>Baseball Rivalries | Python (pybaseball)</h3>
       <p>I wanted to use the pybaseball package to construct a little analysis on the stats behind rivalries in the MLB (I will likely focus on the NL East, 
          but maybe I'll expand the scope.</p>
