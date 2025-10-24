@@ -47,9 +47,10 @@ const FunFacts =
       <ul>
         <li>I've been collecting records since 2018, and I've built my collection to over 200 albums and singles. 
         I like to collect albums from the 1960s to the present day. You can find my entire collection <a href="https://www.discogs.com/user/deannat/collection" target="_blank" rel="noreferrer">here</a></li>
-        <li>I'm a multi-instrumentalist. I've played violin for 12 years, guitar (electric and acoustic) for 5 years, bass guitar for 2 years, and I've picked up a very basic amount of piano.</li>
+        <li>I'm a multi-instrumentalist. I've played violin for 13 years, guitar (electric and acoustic) for 7 years, bass guitar for 4 years, and I've picked up a very basic amount of piano.</li>
         <li>I did mixed martial arts for 11 years, nearly earning a black belt.</li>
         <li>My favorite bands and artists are: Fleetwood Mac, Stevie Nicks, The Beatles, ABBA, The Beach Boys, and Harry Styles</li>
+        <li>I cheer on various hockey (Isles, Bruins, Boston Fleet, Northeastern) and baseball teams (Mets, Red Sox, Northeastern).</li>
       </ul>
       </Fade>
     </p>
